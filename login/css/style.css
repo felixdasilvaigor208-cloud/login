@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(
+        220deg,
+        #022d3d,
+        #02432f,
+        #0c5535
+    );
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+
+}
+
+
+.container{
+    width: 350px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 45px;
+    text-align: center;
+}
+button {
+    background: linear-gradient(90deg, #014413, #1a5a1a);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+input:focus {
+    border-color: #af04ff;
+
+}
